@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518110534332",
+    "project_id": "weather-world-192107"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518110534332:android:b428934eaf36281c",
+        "android_client_info": {
+          "package_name": "com.example.sanje.i_weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518110534332-0cen7nmb3b4v84bmin44stt5q0dlbh2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sanje.i_weather",
+            "certificate_hash": "8743f6764c2de547beab7907f1f5ca2289e3527c"
+          }
+        },
+        {
+          "client_id": "518110534332-brs356mj4k2vv63uidf2eibqkcah28em.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoBSHtg-iesyJ-WIi2RM8_RGXWoGDbzBk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

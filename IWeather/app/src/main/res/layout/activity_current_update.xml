@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#e98a2b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanje.i_weather.CurrentUpdateActivity">
+
+
+    <TextView
+        android:id="@+id/textViewPlacePlusCountryDescription"
+        android:textColor="#fff"
+        android:textSize="@dimen/heading"
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location(Country)" />
+
+    <TextView
+        android:id="@+id/textViewTimeDescription"
+        android:textColor="#fff"
+        android:textSize="@dimen/paragraph"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ec7e10"
+        android:paddingLeft="5dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewSunriseTxt"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Sunrise" />
+        <TextView
+            android:id="@+id/textViewSunriseDescription"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="time" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewSunsetTxt"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Sunset" />
+        <TextView
+            android:id="@+id/textViewSunsetDescription"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="time" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewSummaryTxt"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Summary" />
+        <TextView
+            android:id="@+id/textViewSummaryDescription"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="main,description" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewTemperatureTxt"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Temp(Kel)" />
+        <TextView
+            android:id="@+id/textViewTemperatureDescription"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="temp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewTemperatureMinimumTxt"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Min.Temp(Kel)" />
+        <TextView
+            android:id="@+id/textViewTemperatureMinimumDescription"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="tempMin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewTemperatureMaximumTxt"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Max.Temp(Kel)" />
+        <TextView
+            android:id="@+id/textViewTemperatureMaximumDescription"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="tempMax" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewPressureTxt"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Pressure(hPa)" />
+        <TextView
+            android:id="@+id/textViewPressureDescription"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="pressure" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewHumidityTxt"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="Humidity(%)" />
+        <TextView
+            android:id="@+id/textViewHumidityDescription"
+            android:textColor="#fff"
+            android:textSize="@dimen/paragraph"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="humidity" />
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
