@@ -1,1 +1,2 @@
-# weatherworldN
+# An android based application which fetch current location of user and gives the current weather status of the location as well as forecast for the next 10 days. The application uses  an api which takes the current location of user as input and give the weather record as output in JSON format.so the application fetches the JSON and shows the weather update 
+## Skills used:Android app development,Java, Mysql,API,JSON.
